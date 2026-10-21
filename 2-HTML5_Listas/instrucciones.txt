@@ -1,0 +1,4 @@
+Edita el documento HTML  para reproducir la estructura de la imagen "resultadoEsperado.png". Vas a tener que crear listas en HTML. Recuerda que puedes consultar W3School: https://www.w3schools.com/html/html_lists.asp
+
+También puedes preguntar responsablemente a la IA: "Dame ejemplos de cómo crear listas en HTML".
+    

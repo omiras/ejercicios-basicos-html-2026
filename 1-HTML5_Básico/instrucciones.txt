@@ -1,0 +1,4 @@
+Edita el documento HTML "Berners-Lee-Wikipedia.html"  para reproducir la estructura de la imagen "resultadoEsperado.png". El resultado es APROXIMADO, no te preocupes si no te quedan los mismos márgenes, espacios, etc. La idea es solo practicar un poco HTML.
+
+No hace falta poner esa "imagen" se se aprecia en el fondo.
+    
