@@ -30,6 +30,12 @@ Después de cada paso, guarda el archivo con **Ctrl + S** y comprueba el resulta
 
 El resultado tendrá **un `h1`, dos `h2`, un `h3` y cuatro párrafos**. El contenido lo eliges tú. La página tendrá el aspecto sencillo que le da el navegador: no hay que añadir decoración.
 
+## Resultado esperado
+
+Consulta la [captura de ejemplo](resultadoEsperado.png). El nombre y los textos son orientativos: escribe tu propia presentación respetando la estructura del ejercicio. No necesitas copiar exactamente los tamaños ni los espacios, que pueden variar según el navegador.
+
+![Ejemplo de presentación con un título principal, dos apartados, una afición como subapartado y cuatro párrafos.](resultadoEsperado.png)
+
 ## Comprueba tu trabajo
 
 - [ ] Mi nombre aparece como encabezado principal.

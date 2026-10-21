@@ -24,7 +24,7 @@ Si ya tienes instalada la extensión **Live Server**, también puedes hacer clic
 
 | Ejercicio | Qué practicarás | Referencia |
 | --- | --- | --- |
-| [0. Mi presentación](#0-mi-presentación) | Encabezados y párrafos, sin atributos | Estructura descrita en el enunciado |
+| [0. Mi presentación](#0-mi-presentación) | Encabezados y párrafos, sin atributos | [Imagen](0-mi-presentacion/resultadoEsperado.png) |
 | [1. Tim Berners-Lee](#1-tim-berners-lee) | Encabezados, párrafos y énfasis | [Imagen](1-HTML5_B%C3%A1sico/resultadoEsperado.png) |
 | [2. Mi fin de semana](#2-mi-fin-de-semana) | Listas y listas anidadas | [Imagen](2-HTML5_Listas/resultadoEsperado.png) |
 | [3. Josep Pla](#3-josep-pla) | Texto preformateado y título de una obra | [Imagen](3-ejercicio-josep-pla/josepPlaDisseny.png) |
@@ -57,7 +57,9 @@ El [README de la presentación](0-mi-presentacion/README.md) conserva las pistas
 4. Un `h3` con una afición concreta y un párrafo explicando por qué te gusta. Este subapartado pertenece a «Mis intereses».
 5. Otro `h2`, «Qué me gustaría aprender», y un párrafo con tu objetivo para el curso.
 
-**Resultado esperado:** un `h1`, dos `h2`, un `h3` y cuatro párrafos. No hay captura: el contenido es personal y el aspecto será el que dé el navegador.
+**Resultado esperado:** un `h1`, dos `h2`, un `h3` y cuatro párrafos. Consulta la [captura de ejemplo](0-mi-presentacion/resultadoEsperado.png). El nombre y los textos son orientativos: escribe tu propia presentación. El aspecto será el que dé el navegador, sin decoración añadida.
+
+![Ejemplo de presentación con un título principal, dos apartados, una afición como subapartado y cuatro párrafos.](0-mi-presentacion/resultadoEsperado.png)
 
 **No uses atributos, CSS, JavaScript, imágenes, enlaces ni listas en este ejercicio.**
 
