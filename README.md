@@ -25,6 +25,7 @@ Si ya tienes instalada la extensión **Live Server**, también puedes hacer clic
 | Ejercicio | Qué practicarás | Referencia |
 | --- | --- | --- |
 | [0. Mi presentación](#0-mi-presentación) | Encabezados y párrafos, sin atributos | [Imagen](0-mi-presentacion/resultadoEsperado.png) |
+| [0b. Receta de lentejas](#0b-receta-de-lentejas-con-verduras) | Listas sencillas, importancia y énfasis | [Imagen](0b-receta-lentejas/resultadoEsperado.png) |
 | [1. Tim Berners-Lee](#1-tim-berners-lee) | Encabezados, párrafos y énfasis | [Imagen](1-HTML5_B%C3%A1sico/resultadoEsperado.png) |
 | [2. Mi fin de semana](#2-mi-fin-de-semana) | Listas y listas anidadas | [Imagen](2-HTML5_Listas/resultadoEsperado.png) |
 | [3. Josep Pla](#3-josep-pla) | Texto preformateado y título de una obra | [Imagen](3-ejercicio-josep-pla/josepPlaDisseny.png) |
@@ -78,6 +79,55 @@ El [README de la presentación](0-mi-presentacion/README.md) conserva las pistas
 - [ ] Al cambiar una frase, guardar y recargar, veo el cambio.
 
 **Si terminas antes:** añade otro `h3` con un párrafo dentro de «Mis intereses».
+
+## 0b. Receta de lentejas con verduras
+
+### Objetivo y archivo de trabajo
+
+Haz este ejercicio **después de la presentación y antes de Tim Berners-Lee**. Abre [el HTML base de la receta](0b-receta-lentejas/index.html): contiene toda la receta como texto sin etiquetar. Tu trabajo es organizar ese texto con HTML, sin cambiar el contenido ni escribir la receta de nuevo.
+
+La estructura del documento ya está preparada. Trabaja dentro de `body`; no necesitas modificar `head` ni añadir atributos a tus etiquetas.
+
+### Diseño esperado
+
+[Abre la imagen del resultado esperado](0b-receta-lentejas/resultadoEsperado.png). Es una referencia para organizar el contenido: no necesitas copiar exactamente los tamaños o espacios.
+
+![Receta de lentejas con un título principal, tres apartados, ingredientes con viñetas y preparación numerada.](0b-receta-lentejas/resultadoEsperado.png)
+
+### Qué debes construir
+
+1. Usa **un único `h1`** para «Lentejas con verduras» y un párrafo para la introducción.
+2. Usa **tres `h2`**, uno para cada apartado: «Ingredientes», «Preparación» y «Consejo final».
+3. Organiza los **seis ingredientes** en una lista desordenada con `ul`. Cada ingrediente debe estar dentro de un `li`.
+4. Organiza los **cuatro pasos de preparación** en una lista ordenada con `ol`, cada uno dentro de un `li`. No escribas los números a mano.
+5. En «Consejo final», convierte cada una de las dos frases en un párrafo.
+6. Utiliza `strong` para destacar **«dos personas»** en la introducción y **«Comprueba que las lentejas estén tiernas»** en el consejo final.
+7. Utiliza `em` para enfatizar **«a fuego suave»** en la preparación y **«todavía más sabrosas»** en el último párrafo.
+
+No añadas imágenes, enlaces, CSS ni JavaScript. Tampoco necesitas listas dentro de otras listas.
+
+### Pistas y documentación
+
+- `h1` es el título de toda la receta; los tres `h2` organizan sus apartados al mismo nivel.
+- Una lista de ingredientes no necesita un orden concreto; los pasos de preparación sí tienen una secuencia.
+- Tanto `ul` como `ol` contienen elementos `li`. Los encabezados de los apartados se colocan fuera de las listas.
+- `strong` señala información importante y `em` añade énfasis. Normalmente el navegador los muestra en negrita y cursiva. Colócalos dentro del párrafo o del `li` correspondiente, rodeando solo el fragmento indicado.
+- Recuerda cerrar las etiquetas en orden: lo que abres dentro de un elemento se cierra antes que ese elemento.
+- No uses `br` repetidos para separar ingredientes o pasos: utiliza las listas.
+- [Listas HTML — W3Schools](https://www.w3schools.com/html/html_lists.asp).
+- [Énfasis e importancia — MDN](https://developer.mozilla.org/es/docs/Learn_web_development/Core/Structuring_content/Emphasis_and_importance).
+- [Encabezados y párrafos — MDN](https://developer.mozilla.org/es/docs/Learn_web_development/Core/Structuring_content/Headings_and_paragraphs).
+
+### Comprueba tu trabajo
+
+- [ ] Tengo un `h1` y exactamente tres `h2`.
+- [ ] La introducción y los dos consejos están dentro de sus propios párrafos.
+- [ ] Los seis ingredientes aparecen con viñetas y los cuatro pasos numerados.
+- [ ] He usado dos `strong` y dos `em` en los fragmentos indicados.
+- [ ] No he perdido ni duplicado texto al añadir las etiquetas.
+- [ ] He cerrado correctamente las etiquetas y comprobado el resultado en el navegador.
+
+Para terminar, explica por qué los ingredientes usan `ul` y la preparación usa `ol`.
 
 ## 1. Tim Berners-Lee
 
