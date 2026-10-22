@@ -23,30 +23,30 @@ Después de cada paso, guarda el archivo con **Ctrl + S** y comprueba el resulta
 
 1. **Tu nombre.** Añade un único encabezado principal `h1` con tu nombre o apodo.
 2. **Una breve introducción.** Debajo, escribe un párrafo `p` de una o dos frases para presentarte.
-3. **Tus intereses.** Añade un encabezado `h2` titulado «Mis intereses» y, debajo, un párrafo contando algo que te guste hacer.
-4. **Un interés en detalle.** Dentro de ese apartado, añade un encabezado `h3` que nombre una afición concreta. Debajo, escribe otro párrafo explicando por qué te gusta. Este subapartado forma parte de «Mis intereses».
+3. **Tus intereses.** Añade un encabezado `h2` titulado «Mis intereses». No escribas un párrafo introductorio: a continuación irán los subapartados de tus aficiones.
+4. **Dos intereses en detalle.** Dentro de ese apartado, añade dos encabezados `h3`, por ejemplo, «Viajar» y «Cocinar». Debajo de cada uno, escribe un párrafo explicando por qué te gusta esa actividad. Puedes elegir otras aficiones. Ambos subapartados forman parte de «Mis intereses» y están al mismo nivel.
 5. **Tu objetivo.** Añade un nuevo `h2` titulado «Qué me gustaría aprender» y un párrafo explicando algo que esperas conseguir en el curso. Este apartado está al mismo nivel que «Mis intereses».
 6. **Revisa la organización.** Comprueba que los párrafos están fuera de los encabezados y que has cerrado cada etiqueta.
 
-El resultado tendrá **un `h1`, dos `h2`, un `h3` y cuatro párrafos**. El contenido lo eliges tú. La página tendrá el aspecto sencillo que le da el navegador: no hay que añadir decoración.
+El resultado tendrá **un `h1`, dos `h2`, dos `h3` y cuatro párrafos**. El contenido lo eliges tú. La página tendrá el aspecto sencillo que le da el navegador: no hay que añadir decoración.
 
 ## Resultado esperado
 
 Consulta la [captura de ejemplo](resultadoEsperado.png). El nombre y los textos son orientativos: escribe tu propia presentación respetando la estructura del ejercicio. No necesitas copiar exactamente los tamaños ni los espacios, que pueden variar según el navegador.
 
-![Ejemplo de presentación con un título principal, dos apartados, una afición como subapartado y cuatro párrafos.](resultadoEsperado.png)
+![Ejemplo de presentación con un título principal, dos apartados, Viajar y Cocinar como subapartados y cuatro párrafos.](resultadoEsperado.png)
 
 ## Comprueba tu trabajo
 
 - [ ] Mi nombre aparece como encabezado principal.
 - [ ] Hay una introducción y dos apartados principales.
-- [ ] Una afición tiene su propio subapartado dentro de «Mis intereses».
+- [ ] Dos aficiones tienen su propio subapartado `h3` dentro de «Mis intereses», sin párrafo introductorio antes de la primera.
 - [ ] He escrito cuatro párrafos, cada uno dentro de su propio elemento `p`.
 - [ ] Todas las etiquetas que he añadido tienen apertura y cierre.
 - [ ] No he escrito atributos: mis etiquetas de apertura contienen solo el nombre, por ejemplo `<p>`.
 - [ ] He abierto el ejercicio con Live Server y al guardar una frase veo el cambio automáticamente en el navegador.
 
-Para terminar, explica a una persona del grupo por qué la afición concreta lleva `h3` y «Qué me gustaría aprender» lleva `h2`. No elijas el nivel solo por el tamaño de letra.
+Para terminar, explica a una persona del grupo por qué las dos aficiones llevan `h3` y «Qué me gustaría aprender» lleva `h2`. No elijas el nivel solo por el tamaño de letra.
 
 ## Pistas: consulta solo lo que necesites
 

@@ -69,13 +69,13 @@ El [README de la presentación](0-mi-presentacion/README.md) conserva las pistas
 
 1. Un `h1` con tu nombre o apodo.
 2. Un párrafo `p` con una introducción de una o dos frases.
-3. Un `h2` titulado «Mis intereses» y un párrafo sobre algo que te guste hacer.
-4. Un `h3` con una afición concreta y un párrafo explicando por qué te gusta. Este subapartado pertenece a «Mis intereses».
+3. Un `h2` titulado «Mis intereses», sin un párrafo introductorio debajo.
+4. Dos subapartados `h3` dentro de «Mis intereses», por ejemplo, «Viajar» y «Cocinar». Debajo de cada uno, un párrafo explicando por qué te gusta esa actividad. Puedes elegir otras aficiones.
 5. Otro `h2`, «Qué me gustaría aprender», y un párrafo con tu objetivo para el curso.
 
-**Resultado esperado:** un `h1`, dos `h2`, un `h3` y cuatro párrafos. Consulta la [captura de ejemplo](0-mi-presentacion/resultadoEsperado.png). El nombre y los textos son orientativos: escribe tu propia presentación. El aspecto será el que dé el navegador, sin decoración añadida.
+**Resultado esperado:** un `h1`, dos `h2`, dos `h3` y cuatro párrafos. Consulta la [captura de ejemplo](0-mi-presentacion/resultadoEsperado.png). El nombre y los textos son orientativos: escribe tu propia presentación. El aspecto será el que dé el navegador, sin decoración añadida.
 
-![Ejemplo de presentación con un título principal, dos apartados, una afición como subapartado y cuatro párrafos.](0-mi-presentacion/resultadoEsperado.png)
+![Ejemplo de presentación con un título principal, dos apartados, Viajar y Cocinar como subapartados y cuatro párrafos.](0-mi-presentacion/resultadoEsperado.png)
 
 **No uses atributos, CSS, JavaScript, imágenes, enlaces ni listas en este ejercicio.**
 
@@ -88,8 +88,8 @@ El [README de la presentación](0-mi-presentacion/README.md) conserva las pistas
 
 ### Comprueba tu trabajo
 
-- [ ] Tengo los cuatro encabezados y los cuatro párrafos indicados.
-- [ ] Entiendo por qué la afición lleva `h3` y el objetivo lleva `h2`.
+- [ ] Tengo los cinco encabezados y los cuatro párrafos indicados.
+- [ ] Entiendo por qué las dos aficiones llevan `h3` y el objetivo lleva `h2`.
 - [ ] No he usado atributos y he cerrado mis etiquetas.
 - [ ] He abierto el ejercicio con Live Server y al guardar una frase veo el cambio automáticamente.
 
