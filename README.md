@@ -12,13 +12,28 @@ Practicarás cómo estructurar páginas web con HTML. Empieza por **0. Mi presen
 
 Para leer este README con formato en VS Code, ábrelo y pulsa **Ctrl + Mayús + V**. Los enlaces a archivos son relativos: conserva la carpeta completa para que funcionen después de extraer el ZIP. Si un enlace no se abre en la vista previa, busca el archivo en el explorador de VS Code.
 
-## Ver tu página
+## Instalar Live Server y ver tu página
 
-1. Guarda el HTML con **Ctrl + S**.
-2. Busca el archivo en el Explorador de archivos de Windows y ábrelo con tu navegador.
-3. Después de cada cambio, guarda en VS Code y recarga el navegador.
+**Usaremos Live Server desde el primer ejercicio y durante todas estas actividades.** Es una extensión de VS Code que abre tu página en el navegador y la actualiza automáticamente cuando guardas los cambios.
 
-Si ya tienes instalada la extensión **Live Server**, también puedes hacer clic derecho sobre el HTML en VS Code y elegir **Open with Live Server**. La página se actualizará al guardar. Si esa opción no aparece, utiliza el procedimiento anterior.
+### Si todavía no tienes la extensión
+
+1. En VS Code, abre **Extensiones** en la barra lateral o pulsa **Ctrl + Mayús + X**.
+2. Busca **Live Server** y elige la extensión de **Ritwick Dey** (identificador: `ritwickdey.LiveServer`).
+3. Pulsa **Instalar / Install**. También puedes acceder desde su [ficha de descarga en Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
+4. Si VS Code te solicita recargar la ventana para completar la instalación, hazlo.
+
+### Abrir cada ejercicio
+
+1. Comprueba que has abierto la carpeta completa con **Archivo > Abrir carpeta** y abre el HTML del ejercicio.
+2. Guarda con **Ctrl + S**.
+3. Haz clic derecho sobre ese archivo HTML en el explorador de VS Code y elige **Open with Live Server**.
+4. Se abrirá el navegador con una dirección que empieza por `http://127.0.0.1:` o `http://localhost:`. Esa es la pestaña donde comprobarás el ejercicio.
+5. Después de cada cambio, guarda con **Ctrl + S** y comprueba el resultado: Live Server actualizará la página automáticamente.
+
+También puedes pulsar **Go Live** en la barra inferior de VS Code con el HTML del ejercicio abierto. Para cambiar de ejercicio, abre su HTML y utiliza **Open with Live Server**.
+
+Si no aparece esa opción, revisa que la extensión esté instalada y habilitada, que hayas abierto la carpeta del proyecto y que el archivo termine en `.html`. Si sigue sin funcionar, pide ayuda al docente.
 
 ## Índice de ejercicios
 
@@ -76,7 +91,7 @@ El [README de la presentación](0-mi-presentacion/README.md) conserva las pistas
 - [ ] Tengo los cuatro encabezados y los cuatro párrafos indicados.
 - [ ] Entiendo por qué la afición lleva `h3` y el objetivo lleva `h2`.
 - [ ] No he usado atributos y he cerrado mis etiquetas.
-- [ ] Al cambiar una frase, guardar y recargar, veo el cambio.
+- [ ] He abierto el ejercicio con Live Server y al guardar una frase veo el cambio automáticamente.
 
 **Si terminas antes:** añade otro `h3` con un párrafo dentro de «Mis intereses».
 
@@ -388,7 +403,7 @@ No cuentes cualquier mejora posible como uno de los cinco errores: un texto redu
 
 | Qué ocurre | Qué revisar |
 | --- | --- |
-| No veo mis cambios | Guarda, recarga y comprueba que editas el mismo archivo que has abierto en el navegador. |
+| No veo mis cambios | Guarda con Ctrl + S y comprueba que estás viendo el mismo HTML abierto con Live Server, en una dirección `http://127.0.0.1:` o `http://localhost:`. Si el servidor se ha detenido, vuelve a usar Open with Live Server. |
 | Veo las etiquetas como texto | Comprueba que el nombre termina en `.html`, no en `.html.txt`. |
 | No aparece una imagen | Revisa `src`, el nombre exacto, la extensión y la carpeta desde la que se calcula la ruta. |
 | Un enlace no abre el destino | Revisa `href`, el nombre del archivo y si tienes que entrar o salir de una carpeta. |

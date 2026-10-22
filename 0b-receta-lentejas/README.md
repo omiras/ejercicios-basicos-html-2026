@@ -6,6 +6,8 @@ El [enunciado completo, las pistas y la lista de comprobación están en el READ
 
 Abre `index.html` en VS Code: la estructura básica y todo el texto ya están preparados. Añade las etiquetas dentro de `body` para obtener un título principal, tres apartados, una lista de ingredientes, una lista de pasos y los fragmentos destacados indicados en el enunciado.
 
+Abre `index.html` con **Open with Live Server** y guarda cada cambio con **Ctrl + S** para verlo automáticamente en el navegador. Si necesitas instalar la extensión, sigue los [pasos del README principal](../README.md#instalar-live-server-y-ver-tu-página).
+
 ## Resultado esperado
 
 ![Receta de lentejas con verduras: encabezados, párrafos, ingredientes con viñetas y pasos numerados.](resultadoEsperado.png)

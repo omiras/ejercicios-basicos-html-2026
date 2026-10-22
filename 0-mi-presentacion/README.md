@@ -15,11 +15,11 @@ Vas a crear una pequeña presentación para que el grupo te conozca y, de paso, 
 
 Abre `index.html` en VS Code. La estructura del documento ya está preparada: escribe tu presentación **entre `<body>` y `</body>`**. No necesitas memorizar todavía el resto de la estructura.
 
-Abre también ese archivo en el navegador. Si necesitas ayuda para hacerlo, consulta el README de la carpeta principal.
+Abre ese archivo con **Live Server**: haz clic derecho sobre `index.html` en el explorador de VS Code y elige **Open with Live Server**. Si todavía no tienes la extensión, consulta los [pasos de instalación del README principal](../README.md#instalar-live-server-y-ver-tu-página). La usaremos desde este primer ejercicio.
 
 ## Construye tu presentación, paso a paso
 
-Después de cada paso, guarda el archivo con **Ctrl + S** y comprueba el resultado en el navegador. Si no usas Live Server, recuerda recargar la página.
+Después de cada paso, guarda el archivo con **Ctrl + S** y comprueba el resultado en la pestaña abierta por Live Server: la página se actualizará automáticamente.
 
 1. **Tu nombre.** Añade un único encabezado principal `h1` con tu nombre o apodo.
 2. **Una breve introducción.** Debajo, escribe un párrafo `p` de una o dos frases para presentarte.
@@ -44,7 +44,7 @@ Consulta la [captura de ejemplo](resultadoEsperado.png). El nombre y los textos 
 - [ ] He escrito cuatro párrafos, cada uno dentro de su propio elemento `p`.
 - [ ] Todas las etiquetas que he añadido tienen apertura y cierre.
 - [ ] No he escrito atributos: mis etiquetas de apertura contienen solo el nombre, por ejemplo `<p>`.
-- [ ] Al cambiar una frase, guardarla y recargar, veo el cambio en el navegador.
+- [ ] He abierto el ejercicio con Live Server y al guardar una frase veo el cambio automáticamente en el navegador.
 
 Para terminar, explica a una persona del grupo por qué la afición concreta lleva `h3` y «Qué me gustaría aprender» lleva `h2`. No elijas el nivel solo por el tamaño de letra.
 
@@ -80,7 +80,7 @@ Los saltos de línea que escribes en el editor no crean párrafos HTML. Cada pá
 <details>
 <summary>El navegador no muestra mis cambios</summary>
 
-Comprueba que has guardado el archivo, que estás viendo el mismo `index.html` que estás editando y que has recargado el navegador. Si ves etiquetas escritas como texto, revisa que el archivo termine en `.html` y no en `.txt`.
+Comprueba que has guardado el archivo y que estás viendo el mismo `index.html` que estás editando, en la pestaña abierta por Live Server. Su dirección debe empezar por `http://127.0.0.1:` o `http://localhost:`. Si el servidor se ha detenido, haz clic derecho sobre el HTML y elige **Open with Live Server** de nuevo. Si ves etiquetas escritas como texto, revisa que el archivo termine en `.html` y no en `.txt`.
 
 </details>
 
