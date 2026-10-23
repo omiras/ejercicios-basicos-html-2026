@@ -44,8 +44,8 @@ Si no aparece esa opción, revisa que la extensión esté instalada y habilitada
 | [1. Tim Berners-Lee](#1-tim-berners-lee) | Encabezados, párrafos y énfasis | [Imagen](1-HTML5_B%C3%A1sico/resultadoEsperado.png) |
 | [2. Mi fin de semana](#2-mi-fin-de-semana) | Listas y listas anidadas | [Imagen](2-HTML5_Listas/resultadoEsperado.png) |
 | [3. Josep Pla](#3-josep-pla) | Texto preformateado y título de una obra | [Imagen](3-ejercicio-josep-pla/josepPlaDisseny.png) |
-| [4. Pokémon](#4-pokémon) | Imágenes y reproducción de una referencia | [Vídeo](https://oscarm.tinytake.com/msc/OTM4NjY0OF8yMjk2MTU4OA) |
-| [5. Protectora de animales](#5-protectora-de-animales) | Páginas, imágenes y enlaces | [Imagen](5-ejercicio-protectora/dise%C3%B1oAproximado.png) y [vídeo](https://oscarm.tinytake.com/msc/OTM5MjIyNV8yMjk2ODE2NQ) |
+| [4. Pokémon](#4-pokémon) | Tres páginas en una misma carpeta: imágenes y enlaces | [Vídeo](https://oscarm.tinytake.com/msc/OTM4NjY0OF8yMjk2MTU4OA) |
+| [5. Protectora de animales](#5-protectora-de-animales) | Ampliación: subcarpetas, rutas relativas, correo y vídeo incrustado | [Imagen](5-ejercicio-protectora/dise%C3%B1oAproximado.png) y [vídeo](https://oscarm.tinytake.com/msc/OTM5MjIyNV8yMjk2ODE2NQ) |
 | [6. Detectives de HTML](#6-detectives-de-html) | Localizar y explicar errores | Archivo HTML con errores |
 
 ## Cómo trabajar
@@ -238,7 +238,15 @@ La barra del navegador, la dirección local y los datos de Chrome y Windows **no
 
 ### Objetivo y archivo de trabajo
 
-Crea un **`index.html` dentro de `4-ejercicio-pokemon`** y reproduce el diseño y el comportamiento que muestra el vídeo de referencia, como piden las instrucciones originales.
+Crea **tres archivos HTML dentro de `4-ejercicio-pokemon`**, todos al mismo nivel, junto a la carpeta `img`:
+
+| Archivo que debes crear | Contenido |
+| --- | --- |
+| `index.html` | Página inicial de Charmander. |
+| `charmeleon.html` | Página de su primera evolución, Charmeleon. |
+| `charizard.html` | Página de su segunda evolución, Charizard. |
+
+Cada archivo necesita su propia estructura HTML, el nombre del Pokémon y su imagen correspondiente. Reproduce el contenido y la navegación del vídeo enlazando estas páginas entre sí. Son **tres páginas distintas**, cada evolución tiene su propio archivo.
 
 ### Referencia y recursos
 
@@ -250,9 +258,9 @@ Los nombres de los archivos son los que ya vienen en la carpeta, aunque no coinc
 ### Cómo abordarlo
 
 1. Mira el vídeo completo antes de escribir. Anota los textos, las imágenes, su orden y qué ocurre cuando se interactúa con la página.
-2. Prepara la estructura HTML y añade primero el contenido de texto.
+2. Crea los tres archivos indicados y prepara la estructura HTML y el texto de cada página.
 3. Incorpora las imágenes desde `img` con el atributo `src` y un texto alternativo `alt` apropiado.
-4. Reproduce los enlaces o la navegación que observes en la referencia y compruébalos uno a uno.
+4. Enlaza los tres archivos para reproducir la navegación de la referencia. Prueba cada recorrido desde `index.html`, abriéndolo con Live Server.
 5. Compara tu resultado con el vídeo, sin añadir funcionalidades que no se hayan pedido.
 
 ### Pistas y documentación
@@ -260,15 +268,17 @@ Los nombres de los archivos son los que ya vienen en la carpeta, aunque no coinc
 - Desde el `index.html` del ejercicio, las imágenes se buscan en `img/nombre-del-archivo.png`.
 - `src` indica dónde está la imagen; `alt` describe su contenido. `img` no lleva etiqueta de cierre.
 - Si una imagen no aparece, revisa su nombre, extensión y ruta antes de cambiar el resto del código.
-- Si el vídeo muestra un salto a una parte de la misma página, consulta los enlaces con `href="#identificador"` y el atributo `id` en el destino.
+- Como los tres HTML están en la misma carpeta, el destino de un enlace puede ser directamente el nombre del archivo, por ejemplo, `href="charmeleon.html"`. Para volver al inicio, utiliza `index.html`.
+- Usa `img/charmander.png` para Charmander, `img/charmillion.png` para Charmeleon e `img/charizar.png` para Charizard.
 - [Imágenes: `img` — MDN](https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/img).
 - [Enlaces: `a` — MDN](https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/a).
 
 ### Comprueba tu trabajo
 
-- [ ] He seguido el contenido, el orden y el comportamiento del vídeo.
+- [ ] He creado `index.html`, `charmeleon.html` y `charizard.html`, cada uno con su propia estructura HTML.
+- [ ] Cada Pokémon aparece en su página y he seguido el contenido, el orden y el comportamiento del vídeo.
 - [ ] Las imágenes cargan desde la carpeta del ejercicio y tienen texto alternativo.
-- [ ] He probado cada enlace o salto que he añadido.
+- [ ] He probado los enlaces entre los tres archivos desde Live Server.
 - [ ] Las rutas no dependen de una carpeta personal como `C:\Users\...`.
 
 ## 5. Protectora de animales
@@ -277,14 +287,13 @@ Los nombres de los archivos son los que ya vienen en la carpeta, aunque no coinc
 
 Construye un sitio para **PROGAT/PROGATS**, una protectora que anuncia gatos perdidos en la zona de Girona. Practicarás imágenes, listas y enlaces entre páginas de carpetas diferentes.
 
-La imagen usa «PROGAT» y el PDF «PROGATS»: ambas referencias pertenecen al mismo ejercicio. Usa un nombre coherente en tus páginas.
+Usa un nombre coherente para la protectora en todas tus páginas. Este README reúne los requisitos del ejercicio.
 
 ### Diseño esperado y materiales
 
 - **[Vídeo del ejercicio de la protectora](https://oscarm.tinytake.com/msc/OTM5MjIyNV8yMjk2ODE2NQ):** referencia del diseño y del comportamiento.
 - **[Imagen del diseño aproximado](5-ejercicio-protectora/dise%C3%B1oAproximado.png):** muestra la página principal.
-- **[PDF con los requisitos originales](5-ejercicio-protectora/requisitosWeb.pdf):** describe la página principal y las páginas de cada zona. Sus requisitos se recogen a continuación.
-- [Vídeo promocional de YouTube](https://www.youtube.com/watch?v=zmXtcnZcq4g): es el contenido que aparece incrustado en la captura, distinto del vídeo que explica el ejercicio.
+- [Vídeo de YouTube para incrustar](https://www.youtube.com/watch?v=qRxFWJlMoAg): sustituye al vídeo antiguo que aparece en la captura. Es distinto del vídeo de TinyTake que explica el diseño del ejercicio.
 - Recursos gráficos: [logoProgats.png](5-ejercicio-protectora/img/logoProgats.png), [bertin.jpg](5-ejercicio-protectora/img/bertin.jpg), [gloria.jpg](5-ejercicio-protectora/img/gloria.jpg) y [thyseen.jpg](5-ejercicio-protectora/img/thyseen.jpg).
 
 ### Parte A. Página principal
@@ -294,12 +303,12 @@ Edita [5-ejercicio-protectora/index.html](5-ejercicio-protectora/index.html). De
 1. El nombre y el logotipo de la protectora.
 2. Una pequeña descripción de lo que hace la asociación.
 3. Una lista de enlaces a las tres zonas: **Girona, Sant Feliu de Guíxols y Palamós**. Cada enlace debe abrir la página de su localidad.
-4. El vídeo promocional de YouTube que aparece en la referencia.
+4. El nuevo [vídeo de YouTube](https://www.youtube.com/watch?v=qRxFWJlMoAg), incrustado en lugar del vídeo antiguo de la captura.
 5. Al final, el teléfono y el correo de contacto. El correo debe ser un enlace que abra la aplicación de correo.
 
 La captura muestra el teléfono **972727272** y el correo **progat@progat.com**. Úsalos como datos del ejercicio; basta con comprobar el enlace, sin enviar mensajes ni realizar llamadas.
 
-**Aclaración:** aunque la imagen presenta los enlaces de las ciudades en una línea, el PDF solicita una lista de enlaces. Utiliza una lista HTML; no necesitas CSS para colocarla en una línea.
+**Aclaración:** aunque la imagen presenta los enlaces de las ciudades en una línea, en este ejercicio debes utilizar una lista HTML de enlaces. No necesitas CSS para colocarla en una línea.
 
 ### Parte B. Páginas de gatos perdidos
 
@@ -313,7 +322,7 @@ En cada página debes incluir:
 
 1. El nombre de la protectora y su logotipo. **Al pulsar el logotipo se debe volver a la página principal.**
 2. La localidad correspondiente, identificada con un encabezado.
-3. Los gatos perdidos de esa zona. Puede haber **cero, uno o varios gatos**, según los requisitos originales. Para cada gato: nombre como encabezado, descripción de dónde se perdió y sus rasgos, y fotografía.
+3. Los gatos perdidos de esa zona. Puede haber **cero, uno o varios gatos**. Para cada gato: nombre como encabezado, descripción de dónde se perdió y sus rasgos, y fotografía.
 4. Al final, el correo y el teléfono de contacto.
 
 Si la referencia no concreta los datos de algún gato, escribe una descripción ficticia para practicar. Si una localidad no tiene gatos, indícalo con un párrafo. No hace falta implementar un buscador ni un formulario.
@@ -340,6 +349,7 @@ Si la referencia no concreta los datos de algún gato, escribe una descripción 
 - Para que el logo sea clicable, coloca su `img` dentro de un enlace `a`.
 - Para el correo, investiga `mailto:`. Para un teléfono clicable puedes usar `tel:`.
 - Para incrustar el vídeo, busca en YouTube **Compartir > Insertar**. Revisa el `iframe`, añade un `title` descriptivo y usa la dirección de inserción, no la URL normal de reproducción.
+- Para el nuevo vídeo, la dirección de inserción es `https://www.youtube.com/embed/qRxFWJlMoAg`.
 - El vídeo necesita Internet. Si YouTube bloquea su reproducción incrustada, conserva también un enlace para abrirlo en YouTube y coméntalo con el docente.
 
 ### Documentación

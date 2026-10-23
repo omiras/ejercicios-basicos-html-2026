@@ -1,1 +1,2 @@
-Video youtube promocional: https://www.youtube.com/watch?v=zmXtcnZcq4g
+Vídeo de YouTube para incrustar: https://www.youtube.com/watch?v=qRxFWJlMoAg
+Dirección de inserción para el iframe: https://www.youtube.com/embed/qRxFWJlMoAg

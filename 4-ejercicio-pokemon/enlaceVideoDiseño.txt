@@ -1,1 +1,3 @@
 Intenta reproducir este diseño y comportamiento: https://oscarm.tinytake.com/msc/OTM4NjY0OF8yMjk2MTU4OA
+
+Crea tres archivos en esta carpeta: index.html (Charmander), charmeleon.html (primera evolución) y charizard.html (segunda evolución). Cada uno necesita su propia estructura HTML e imagen. Enlaza las páginas siguiendo la navegación del vídeo. Consulta el README principal para ver el enunciado completo.
