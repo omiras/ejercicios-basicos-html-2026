@@ -1,2 +1,3 @@
-Vídeo de YouTube para incrustar: https://www.youtube.com/watch?v=qRxFWJlMoAg
-Dirección de inserción para el iframe: https://www.youtube.com/embed/qRxFWJlMoAg
+Vídeo para mostrar dentro de la página: https://www.youtube.com/watch?v=qRxFWJlMoAg
+En YouTube, pulsa Compartir > Insertar y copia el código HTML completo. Pégalo dentro del body de la página principal, fuera de párrafos y listas, antes de los datos de contacto. Guarda y comprueba el reproductor con Live Server.
+Ayuda oficial en español: https://support.google.com/youtube/answer/171780?hl=es

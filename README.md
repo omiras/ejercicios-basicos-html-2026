@@ -45,7 +45,7 @@ Si no aparece esa opción, revisa que la extensión esté instalada y habilitada
 | [2. Mi fin de semana](#2-mi-fin-de-semana) | Listas y listas anidadas | [Imagen](2-HTML5_Listas/resultadoEsperado.png) |
 | [3. Josep Pla](#3-josep-pla) | Texto preformateado y título de una obra | [Imagen](3-ejercicio-josep-pla/josepPlaDisseny.png) |
 | [4. Pokémon](#4-pokémon) | Tres páginas en una misma carpeta: imágenes y enlaces | [Vídeo](https://oscarm.tinytake.com/msc/OTM4NjY0OF8yMjk2MTU4OA) |
-| [5. Protectora de animales](#5-protectora-de-animales) | Ampliación: subcarpetas, rutas relativas, correo y vídeo incrustado | [Imagen](5-ejercicio-protectora/dise%C3%B1oAproximado.png) y [vídeo](https://oscarm.tinytake.com/msc/OTM5MjIyNV8yMjk2ODE2NQ) |
+| [5. Protectora de animales](#5-protectora-de-animales) | Ampliación: subcarpetas, rutas relativas, correo y vídeo de YouTube | [Imagen](5-ejercicio-protectora/dise%C3%B1oAproximado.png) y [vídeo](https://oscarm.tinytake.com/msc/OTM5MjIyNV8yMjk2ODE2NQ) |
 | [6. Detectives de HTML](#6-detectives-de-html) | Localizar y explicar errores | Archivo HTML con errores |
 
 ## Cómo trabajar
@@ -293,7 +293,7 @@ Usa un nombre coherente para la protectora en todas tus páginas. Este README re
 
 - **[Vídeo del ejercicio de la protectora](https://oscarm.tinytake.com/msc/OTM5MjIyNV8yMjk2ODE2NQ):** referencia del diseño y del comportamiento.
 - **[Imagen del diseño aproximado](5-ejercicio-protectora/dise%C3%B1oAproximado.png):** muestra la página principal.
-- [Vídeo de YouTube para incrustar](https://www.youtube.com/watch?v=qRxFWJlMoAg): sustituye al vídeo antiguo que aparece en la captura. Es distinto del vídeo de TinyTake que explica el diseño del ejercicio.
+- [Vídeo de YouTube para insertar en la página](https://www.youtube.com/watch?v=qRxFWJlMoAg): sustituye al vídeo antiguo que aparece en la captura. Es distinto del vídeo de TinyTake que explica el diseño del ejercicio.
 - Recursos gráficos: [logoProgats.png](5-ejercicio-protectora/img/logoProgats.png), [bertin.jpg](5-ejercicio-protectora/img/bertin.jpg), [gloria.jpg](5-ejercicio-protectora/img/gloria.jpg) y [thyseen.jpg](5-ejercicio-protectora/img/thyseen.jpg).
 
 ### Parte A. Página principal
@@ -303,7 +303,7 @@ Edita [5-ejercicio-protectora/index.html](5-ejercicio-protectora/index.html). De
 1. El nombre y el logotipo de la protectora.
 2. Una pequeña descripción de lo que hace la asociación.
 3. Una lista de enlaces a las tres zonas: **Girona, Sant Feliu de Guíxols y Palamós**. Cada enlace debe abrir la página de su localidad.
-4. El nuevo [vídeo de YouTube](https://www.youtube.com/watch?v=qRxFWJlMoAg), incrustado en lugar del vídeo antiguo de la captura.
+4. El [vídeo de YouTube](https://www.youtube.com/watch?v=qRxFWJlMoAg) con su reproductor visible dentro de la página, como en el diseño de referencia. Sigue los pasos del apartado «Cómo mostrar el vídeo en tu página».
 5. Al final, el teléfono y el correo de contacto. El correo debe ser un enlace que abra la aplicación de correo.
 
 La captura muestra el teléfono **972727272** y el correo **progat@progat.com**. Úsalos como datos del ejercicio; basta con comprobar el enlace, sin enviar mensajes ni realizar llamadas.
@@ -334,7 +334,7 @@ Si la referencia no concreta los datos de algún gato, escribe una descripción 
 3. Completa una página de localidad y prueba el logo para volver al inicio.
 4. Añade los gatos y comprueba las fotografías.
 5. Completa las otras dos páginas y revisa toda la navegación.
-6. Añade los enlaces de contacto y el vídeo incrustado.
+6. Añade los enlaces de contacto e inserta el reproductor de YouTube siguiendo los pasos de abajo.
 
 ### Pistas sobre rutas y enlaces
 
@@ -348,15 +348,28 @@ Si la referencia no concreta los datos de algún gato, escribe una descripción 
 - `../` permite subir un nivel de carpeta. Calcula las rutas desde el HTML que estás editando, no desde el README.
 - Para que el logo sea clicable, coloca su `img` dentro de un enlace `a`.
 - Para el correo, investiga `mailto:`. Para un teléfono clicable puedes usar `tel:`.
-- Para incrustar el vídeo, busca en YouTube **Compartir > Insertar**. Revisa el `iframe`, añade un `title` descriptivo y usa la dirección de inserción, no la URL normal de reproducción.
-- Para el nuevo vídeo, la dirección de inserción es `https://www.youtube.com/embed/qRxFWJlMoAg`.
-- El vídeo necesita Internet. Si YouTube bloquea su reproducción incrustada, conserva también un enlace para abrirlo en YouTube y coméntalo con el docente.
+
+
+### Cómo mostrar el vídeo en tu página
+
+YouTube proporciona el código necesario para mostrar su reproductor. En este ejercicio basta con aprender a obtenerlo y colocarlo; no necesitas estudiar todavía las etiquetas y atributos que contiene.
+
+1. Desde un ordenador, abre [el vídeo de la protectora en YouTube](https://www.youtube.com/watch?v=qRxFWJlMoAg).
+2. Pulsa **Compartir** y selecciona **Insertar**.
+3. Copia el código HTML completo que muestra YouTube.
+4. En VS Code, pégalo dentro del `body` de la página principal, después de la descripción y su lista, antes de los datos de contacto. Colócalo fuera de los párrafos y las listas.
+5. Guarda con **Ctrl + S** y comprueba en **Live Server** que aparece el reproductor dentro de tu página. Pulsa reproducir para probarlo; necesitas conexión a Internet.
+
+**Recurso de ayuda:** [Insertar vídeos y listas de reproducción — ayuda oficial de YouTube, en español](https://support.google.com/youtube/answer/171780?hl=es). Consulta el apartado «Insertar un vídeo o una lista de reproducción».
+
+Si no aparece la opción **Insertar** o YouTube impide reproducir el vídeo dentro de la página, avisa al docente para revisarlo.
 
 ### Documentación
 
+- [Cómo crear enlaces — Lenguaje HTML](https://lenguajehtml.com/html/enlaces/etiqueta-html-a/): explicación en español de `a`, `href` y cómo convertir una imagen en enlace. Empieza por el ejemplo básico; no necesitas todos los atributos.
+- [Enlaces HTML — W3Schools](https://www.w3schools.com/html/html_links.asp): ejemplos de enlaces externos, rutas relativas y enlaces de correo.
 - [Enlaces y correo: `a` — MDN](https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/a).
 - [Imágenes y texto alternativo: `img` — MDN](https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/img).
-- [Contenido incrustado: `iframe` — MDN](https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/iframe).
 
 ### Comprueba tu trabajo
 
@@ -365,7 +378,7 @@ Si la referencia no concreta los datos de algún gato, escribe una descripción 
 - [ ] Los gatos que he incluido tienen nombre, descripción y fotografía con texto alternativo.
 - [ ] En las cuatro páginas aparecen los datos de contacto.
 - [ ] El correo utiliza `mailto:`. Si no se abre una aplicación, he revisado la ruta y la configuración de correo del equipo.
-- [ ] He incorporado el vídeo promocional o comprobado con el docente una limitación de reproducción.
+- [ ] El reproductor de YouTube aparece dentro de mi página y he comprobado su reproducción desde Live Server.
 - [ ] Las imágenes funcionan también en las páginas de las subcarpetas.
 
 ## 6. Detectives de HTML
